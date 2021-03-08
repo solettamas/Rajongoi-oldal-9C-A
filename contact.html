@@ -12,33 +12,82 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Kapcsolat</title>
+    <style>
+      body {
+        background-image: url(logó.jpg);
+        background-attachment: fixed;
+      }
+    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md bg-warning navbar-dark">
-      <a class="navbar-brand" href="index.html">PSG</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-black-50" href="start.html">Főoldal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-black-50" href="content.html">Tartalom</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-black-50" href="contact.html">Kapcsolat</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="conatiner">
+      <nav class="navbar navbar-expand-md bg-warning navbar-dark">
+        <a class="navbar-brand" href="index.html">PSG</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="start.html">Főoldal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="content.html">Tartalom</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="contact.html"
+                >Kapcsolat</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-    <div>Ez a kapcsolat-oldal.</div>
+    <div class="container-fluid mh-100">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 bg-warning mh-100">
+          <h1 class="text-center">Kapcsolat</h1>
+          <h3 class="text-center pt-5">Az oldal készítői:</h3>
+          <div class="card-deck pt-5">
+            <div class="card bg-primary">
+              <div class="card-body shadow-lg">
+                <h4>Szalay Tamás</h4>
+                <p>Telefon: +36/30-000-0000</p>
+                <p>e-mail: szalay.tamas@pelda.com</p>
+              </div>
+            </div>
+            <div class="card bg-light">
+              <div class="card-body">
+                <h4>Sölét Tamás</h4>
+                <p>Telefon: +36/20-000-0000</p>
+                <p>e-mail: solet.tamas@pelda.com</p>
+              </div>
+            </div>
+            <div class="card bg-light">
+              <div class="card-body">
+                <h4>Nagy Barnabás</h4>
+                <p>Telefon: +36/50-000-0000</p>
+                <p>email: nagy-barnabas@pelda.com</p>
+              </div>
+            </div>
+            <div class="card bg-danger">
+              <div class="card-body">
+                <h4>Virág Tamás</h4>
+                <p>Telefon: +36/70-000-0000</p>
+                <p>E-mail: virag.tamas@pelda.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+    </div>
   </body>
 </html>
