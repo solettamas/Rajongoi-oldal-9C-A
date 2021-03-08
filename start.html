@@ -43,8 +43,45 @@
     <div class="row">
       <div class="col-3"></div>
       <div class="col-6 bg-warning">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators mx-auto">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner mx-auto">
+            <div class="carousel-item active">
+              <img src="szuperkupa.jpg" alt="szupekupa" width="100%">
+              <div class="carousel-caption">
+                <h3>2020</h3>
+                <p>Francia szupekupa</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="ligakupa_2018.jpg" alt="ligakupa_2018" width="100%">
+              <div class="carousel-caption">
+                <h3>2018</h3>
+                <p>Francia ligakupa</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="ligakupa_2020.jpg" alt="ligakupa_2020" width="100%">
+              <div class="carousel-caption">
+                <h3>2020</h3>
+                <p>Francia ligakupa</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
         <h1>Kedves szurkoló!</h1>
-        <p>Szeretettel köszöntünk a Paris-Saint Germain rajongói oldalán. Ezen az oldalon megismerheted a PSG focicsapatát.
+        <p>Szeretettel köszöntünk a Paris-Saint Germain rajongói oldalán. Ezen az oldalon megismerheted a PSG
+          focicsapatát.
           Ez az oldal inkább az új, vagy még a PSG-ről nem mindent tudó szurkolóknak szól, de talán egy-egy
           törzsszurkoló is találhat valamilyen érdekességet. Néhány dologról lesz szó a Paris Saint-German-ről, melyeket
           már a régi szurkolók alapból tudnak.</p>
@@ -56,7 +93,7 @@
           legközelebb. Ekkor a döntőben 1-0 vereséget szenvedett a Bayern Münich-től. A következő táblázat bemutatja a
           PSG
           trófeáit:</p>
-        <table class="table">
+        <table class="table table-hover bg-success">
           <thead>
             <tr>
               <th colspan="3" class="text-center">Paris-Saint Germain kupái</th>
@@ -88,12 +125,34 @@
         <p>Ha szeretnél értesülni a legfrissebb hírekről ajánlom a PSG <a
             href="https://www.instagram.com/psg/">instagram</a> oldalát!</p>
         <p>
-          <a href="https://11teamsports.hu/c/paris-saint-germain?gclid=CjwKCAiAp4KCBhB6EiwAxRxbpMkYZpIJbOsAb1bQWEU9vw_FzAoYwWa0GLYYhF8Jrz7Y7URL41o3kxoCpdwQAvD_BwE">Itt</a>
-          néhány PSG-s mezt, pulcsit és más termékeket is találsz!</p>
+          <a
+            href="https://11teamsports.hu/c/paris-saint-germain?gclid=CjwKCAiAp4KCBhB6EiwAxRxbpMkYZpIJbOsAb1bQWEU9vw_FzAoYwWa0GLYYhF8Jrz7Y7URL41o3kxoCpdwQAvD_BwE">Itt</a>
+          néhány PSG-s mezt, pulcsit és más termékeket is találsz!
+        </p>
         <p>A PSG jelenlegi vezetőedzője Mauricio Pochettino (2021-től). Az argentín származású edző a német Thomas
-          Tuchelt váltotta. Pochettinoval szerené a PSG vezetősége a nyáron Barcelonánál lejáró szerződésű Lionel Messi-t a klubhoz csábítani.</p>
+          Tuchelt váltotta(A neveikre kattintva tovább olvashatsz róluk). Pochettinoval szerené a PSG vezetősége a
+          nyáron Barcelonánál lejáró szerződésű Lionel Messi-t a klubhoz csábítani.</p>
+        <button type="button" class="btn btn-primary mb-2 bg-info" data-toggle="collapse"
+          data-target="#pochettino">Mauricio Pochettino</button>
+        <button type="button" class="btn btn-primary mb-2 bg-info " data-toggle="collapse" data-target="#tuchel">Thomas
+            Tuchel</button>
+        <div id="pochettino" class="collapse">
+          <img src="pochettino.jpg" alt="Pochettino" style="width: 50%;" class="float-right"> Mauricio Pochettino
+          argentín származású vezetőedző és focista. Posztja: hátvéd. Focista karrierje során megfordult a PSG-ben is,
+          de főleg az Espanyolban játszott. Vezetőedzőként főként a Tottenhammal fort össze a neve. 2021-től a PSG
+          vezetőedzője.
+        </div>
+        <div id="tuchel" class="collapse">
+          <img src="Tuchel.jpg" class="rounded float-left" style="width: 50%" alt="Tuchel"> Thomas Tuchel német
+          származású vezetőedző, focista. A focista éveiben nem játszott hírés csapatokban, csupán a Stuttgarter
+          Kickers-ben és a SSV Ulm-ban. Posztja:hátvéd. 2018-2020-ig a PSG vezetőedzője volt. Jelenleg a Chealseat vezeti.
+        </div>
       </div>
       <div class="col-3"></div>
+    </div>
+    <div class="alert alert-danger alert-dismissible">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Figyelem!</strong> Ez az oldal 2021 februári adatokat tartalmaz!
     </div>
   </div>
 </body>
